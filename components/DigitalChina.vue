@@ -1,7 +1,7 @@
 <template>
     <div class="digitalChina">
         数字中国
-        哈哈
+        哈哈 enen
     </div>
 </template>
 
