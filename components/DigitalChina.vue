@@ -1,6 +1,7 @@
 <template>
     <div class="digitalChina">
         数字中国
+        哈哈
     </div>
 </template>
 
