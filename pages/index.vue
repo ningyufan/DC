@@ -1,5 +1,5 @@
 <template>
-    <el-container>
+    <el-container class="body">
         <el-header class="header">
             <el-row :gutter="20">
                 <el-col :span="10">
@@ -110,6 +110,10 @@ a:active {color:#2aacc8;}  /* 正在被点击的链接 */
     width: 80px;
     /* background-color: aquamarine; */
     padding: 10px
+}
+.body{
+    margin-left: 200px;
+    margin-right: 200px;
 }
 
 </style>
