@@ -10,25 +10,25 @@
             <el-row :gutter="20" style=" margin-top: 10px">
                 <el-col :span="6">
                 <div class="grid-content bg-purple"> 
-                    <el-image style="width: 180px; height:100px" :src="src1"></el-image>
+                    <el-image style="width: 100%; height:100px" :src="src1"></el-image>
                     <a href="https://www.sogou.com/link?url=DSOYnZeCC_oFmTickJ_wjzMkVIumkSMDxv33361K0LSteaJZoPMQrCXw5Pqtik-2" target="_blank" title="授旗仪式">授旗仪式</a>
                 </div>
                 </el-col>
                 <el-col :span="6">
                 <div class="grid-content bg-purple">
-                    <el-image style="width: 180px; height:100px" :src="src2"></el-image>
+                    <el-image style="width: 100%; height:100px" :src="src2"></el-image>
                     <a href="https://baike.sogou.com/v8443782.htm" target="_blank" title="都峤山">都峤山</a>
                 </div>
                 </el-col>
                 <el-col :span="6">
                 <div class="grid-content bg-purple">
-                    <el-image style="width: 180px; height:100px" :src="src3"></el-image>
+                    <el-image style="width: 100%; height:100px" :src="src3"></el-image>
                     <a href="https://baike.sogou.com/v441012.htm" target="_blank" title="真武阁">真武阁</a>
                 </div>
                 </el-col>
                 <el-col :span="6">
                 <div class="grid-content bg-purple">
-                    <el-image style="width: 180px; height:100px" :src="src4"></el-image>
+                    <el-image style="width: 100%; height:100px" :src="src4"></el-image>
                     <a href="http://www.sohu.com/a/239514158_100019048" target="_blank" title="工作交流会">工作交流会</a>
                 </div>
                 </el-col>
@@ -40,25 +40,25 @@
             <el-row :gutter="20" style=" margin-top: 10px">
                 <el-col :span="6">
                 <div class="grid-content bg-purple"> 
-                    <el-image style="width: 180px; height:100px" :src="src5"></el-image>
+                    <el-image style="width: 100%; height:100px" :src="src5"></el-image>
                     <a href="http://www.tcloudit.com/Html/casedetail.html?ID=242" title="智慧农业">智慧农业</a>
                 </div>
                 </el-col>
                 <el-col :span="6">
                 <div class="grid-content bg-purple">
-                    <el-image style="width: 180px; height:100px" :src="src6"></el-image>
+                    <el-image style="width: 100%; height:100px" :src="src6"></el-image>
                     <a href="http://www.tcloudit.com/Html/casedetail.html?ID=242" target="_blank" title="智能环境监测">智能环境监测</a>
                 </div>
                 </el-col>
                 <el-col :span="6">
                 <div class="grid-content bg-purple">
-                    <el-image style="width: 180px; height:100px" :src="src7"></el-image>
+                    <el-image style="width: 100%; height:100px" :src="src7"></el-image>
                     <a href="http://www.tcloudit.com/Html/casedetail.html?ID=242" target="_blank" title="视频监测">视频监测</a>
                 </div>
                 </el-col>
                 <el-col :span="6">
                 <div class="grid-content bg-purple">
-                    <el-image style="width: 180px; height:100px" :src="src8"></el-image>
+                    <el-image style="width: 100%; height:100px" :src="src8"></el-image>
                     <a href="http://www.tcloudit.com/Html/casedetail.html?ID=242" target="_blank" title="农产品销售平台">农产品销售平台</a>
                 </div>
                 </el-col>
@@ -70,25 +70,25 @@
             <el-row :gutter="20" style=" margin-top: 10px">
                 <el-col :span="6">
                 <div class="grid-content bg-purple"> 
-                    <el-image style="width: 180px; height:100px" :src="src9"></el-image>
+                    <el-image style="width: 100%; height:100px" :src="src9"></el-image>
                     <a href="http://news.gxnews.com.cn/staticpages/20180914/newgx5b9b9b41-17647456.shtml" target="_blank" title="中国（玉林）中医博览会">中国（玉林）中医博览会</a>
                 </div>
                 </el-col>
                 <el-col :span="6">
                 <div class="grid-content bg-purple">
-                    <el-image style="width: 180px; height:100px" :src="src10"></el-image>
+                    <el-image style="width: 100%; height:100px" :src="src10"></el-image>
                     <a href="http://www.gxnews.com.cn/staticpages/20170627/newgx5951d9af-16306725.shtml" target="_blank" title="玉林银丰国际中药港">玉林银丰国际中药港</a>
                 </div>
                 </el-col>
                 <el-col :span="6">
                 <div class="grid-content bg-purple">
-                    <el-image style="width: 180px; height:100px" :src="src11"></el-image>
+                    <el-image style="width: 100%; height:100px" :src="src11"></el-image>
                     <a href="http://www.gxnews.com.cn/staticpages/20170627/newgx5951d9af-16306725.shtml" target="_blank" title="玉林中药材市场">玉林中药材市场</a>
                 </div>
                 </el-col>
                 <el-col :span="6">
                 <div class="grid-content bg-purple">
-                    <el-image style="width: 180px; height:100px" :src="src12"></el-image>
+                    <el-image style="width: 100%; height:100px" :src="src12"></el-image>
                     <a href="http://ku.m.chinanews.com/wapapp/zaker/cj/2018/09-14/8627859.shtml" target="_blank" title="药材产品展示">药材产品展示</a>
                 </div>
                 </el-col>
@@ -100,25 +100,25 @@
             <el-row :gutter="20" style=" margin-top: 10px">
                 <el-col :span="6">
                 <div class="grid-content bg-purple"> 
-                    <el-image style="width: 180px; height:100px" :src="src13"></el-image>
+                    <el-image style="width: 100%; height:100px" :src="src13"></el-image>
                     <a href="http://dy.163.com/v2/article/detail/EEJ0ORGL05129O3K.html" target="_blank" title="电信5G体验馆">电信5G体验馆</a>
                 </div>
                 </el-col>
                 <el-col :span="6">
                 <div class="grid-content bg-purple">
-                    <el-image style="width: 180px; height:100px" :src="src14"></el-image>
+                    <el-image style="width: 100%; height:100px" :src="src14"></el-image>
                     <a href="http://www.gxylnews.com/html/news/2019/05/179511.html" target="_blank" title="玉林首个5G通话">玉林首个5G通话</a>
                 </div>
                 </el-col>
                 <el-col :span="6">
                 <div class="grid-content bg-purple">
-                    <el-image style="width: 180px; height:100px" :src="src15"></el-image>
+                    <el-image style="width: 100%; height:100px" :src="src15"></el-image>
                     <a href="http://www.sohu.com/a/315255128_179119" target="_blank" title="华为5G手机">华为5G手机</a>
                 </div>
                 </el-col>
                 <el-col :span="6">
                 <div class="grid-content bg-purple">
-                    <el-image style="width: 180px; height:100px" :src="src16"></el-image>
+                    <el-image style="width: 100%; height:100px" :src="src16"></el-image>
                     <a href="http://gx.news.163.com/19/0508/10/EEL9OSVD04408DER.html" target="_blank" title="电信5G">电信5G</a>
                 </div>
                 </el-col>
