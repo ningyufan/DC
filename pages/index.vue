@@ -46,6 +46,7 @@
                 </el-col>
             </el-row>
         </el-footer>
+        <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=3mn83YpfI9VdPSZg1DfuK7lg0UqRljwt"></script>
     </el-container>
   
 </template>

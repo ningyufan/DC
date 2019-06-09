@@ -5,7 +5,7 @@
        <i class="el-icon-edit" style="font-size: 20px"> <b>曙光大数据学院</b></i>
         <hr><br>
         <el-row :gutter="30">
-            <el-col :span="16">
+            <el-col :span="15">
             <div class="grid-content1 bg-purple1">
                 <el-row :gutter="20" >
                     <el-col :span="8">
@@ -57,10 +57,10 @@
             </div>
             </el-col>
 
-            <el-col :span="8">
+            <el-col :span="9">
             <div class="grid-content1 bg-purple1">
-                <el-image style="width: 100%; height:100%" :src="src2"></el-image>
-
+                <maps/>
+                <b-map-component></b-map-component>
                 <el-col :span="24">
                     <div class="grid-content2 bg-purple-light2">
                         学生实训、成果展示
@@ -72,16 +72,22 @@
                         <a href="http://hyw.ylsfxy.com/index.php?m=content&c=index&a=show&catid=56&id=50606" target="_blank"><el-image :src="src5"></el-image></a>
                     </div>
                 </el-col>
-
             </div>
             </el-col>
         </el-row>
         </div>
+
+       
     </div>
 </template>
 
 <script>
+import maps from './maps.vue';
+import {BaiduMap} from '../server/map.js'
 export default {
+    components:{
+        maps,
+    },
     data(){
         return{
             src1:'http://dsj.web.xinyoutk.com/jsfc/UploadFiles_3189/201805/20180517181748838.jpg',
@@ -90,7 +96,9 @@ export default {
             src4:'http://dsj.web.xinyoutk.com/jsfc/UploadFiles_3189/201805/20180517181758790.jpg',
             src5:'http://hyw.ylsfxy.com/uploadfile/2019/0523/20190523084614210.jpg',
         }
-    }
+    },
+   methods:{
+    },
     
 }
 </script>
