@@ -29,7 +29,7 @@
                         <a>数字中国，创精彩时代@版权所有</a>
                     </div>
                     </el-col>
-                <el-col :span="9">
+                <el-col :span="10">
                     <div style="float:right">
                         <nav>
                             <a class="lable" @click="toggleTabs(cpAboutMe)">关于我们</a>
@@ -39,7 +39,7 @@
                     　　</nav>
                     </div>
                     </el-col>
-                <el-col :span="6">
+                <el-col :span="5">
                     <div>
                         <h1 style="text-align: center;float:right">Digital<span style="color:#2aacc8">China</span></h1>
                     </div>
@@ -105,6 +105,7 @@ a:active {color:#2aacc8;}  /* 正在被点击的链接 */
 }
 .main{
     padding: 0px;
+    /* min-height: 800px; */
 }
 .lable{
     width: 80px;
@@ -114,6 +115,8 @@ a:active {color:#2aacc8;}  /* 正在被点击的链接 */
 .body{
     margin-left: 200px;
     margin-right: 200px;
+    min-width: 1000px;
+    min-height: 600px
 }
 
 </style>
