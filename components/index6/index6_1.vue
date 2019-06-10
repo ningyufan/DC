@@ -2,7 +2,7 @@
     <div class="WisdomCampus" >
         <div style="margin-left: 10vh;margin-right: 10vh">
         <br>
-       <i class="el-icon-edit" style="font-size: 20px"> <b>曙光大数据学院</b></i>
+       <i class="el-icon-edit" style="font-size: 20px"> <b>曙光大数据应用创新中心</b></i>
         <hr><br>
         <el-row :gutter="30">
             <el-col :span="16">
