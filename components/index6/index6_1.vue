@@ -131,8 +131,8 @@
 </template>
 
 <script>
-import maps from './maps.vue';
-import {BaiduMap} from '../server/map.js'
+import maps from './../maps.vue';
+import {BaiduMap} from '../../server/map.js'
 export default {
     components:{
         maps,
