@@ -7,12 +7,12 @@
        <hr>
         <br>
         <el-row :gutter="20">
-            <el-col :span="12">
+            <el-col :span="14">
             <div class="grid-content1 bg-purple1">
                 <el-row >
                     <el-col :span="8">
-                    <div class="grid-content1 bg-purple1">
-                        <el-image style="width: 150px; height:100px" :src="src1"></el-image>
+                    <div class="grid-content1 bg-purple1" style="margin-right:2vh">
+                        <el-image style="width: 100%; height:100%" :src="src1"></el-image>
                     </div>
                     </el-col>
                     <el-col :span="16">
@@ -27,8 +27,8 @@
                 <br>
                 <el-row >
                     <el-col :span="8">
-                    <div class="grid-content1 bg-purple1">
-                        <el-image style="width: 150px; height:100px" :src="src2"></el-image>
+                    <div class="grid-content1 bg-purple1" style="margin-right:2vh">
+                        <el-image style="width: 100%; height:100%" :src="src2"></el-image>
                     </div>
                     </el-col>
                     <el-col :span="16">
@@ -42,8 +42,8 @@
                 <br>
                 <el-row >
                     <el-col :span="8">
-                    <div class="grid-content1 bg-purple1">
-                        <el-image style="width: 150px; height:100px" :src="src3"></el-image>
+                    <div class="grid-content1 bg-purple1" style="margin-right:2vh">
+                        <el-image style="width: 100%; height:100%" :src="src3"></el-image>
                     </div>
                     </el-col>
                     <el-col :span="16">
@@ -69,7 +69,7 @@
                 </el-form-item>
             </el-form> -->
             </el-col>
-            <el-col :span="12">
+            <el-col :span="10">
             <div class="grid-content1 bg-purple1">
                 <el-row >
                     <div class="icon-warp">
@@ -77,9 +77,9 @@
                     </div>
                     <br>
                     <el-carousel :interval="4000" type="card" height="200px">
-                        <el-carousel-item><el-image style="width: 300px; height:200px" :src="src4"></el-image></el-carousel-item>
-                        <el-carousel-item><el-image style="width: 300px; height:200px" :src="src5"></el-image></el-carousel-item>
-                        <el-carousel-item><el-image style="width: 300px; height:200px" :src="src6"></el-image></el-carousel-item>
+                        <el-carousel-item><el-image style="width: 100%; height:100%" :src="src4"></el-image></el-carousel-item>
+                        <el-carousel-item><el-image style="width: 100%; height:100%" :src="src5"></el-image></el-carousel-item>
+                        <el-carousel-item><el-image style="width: 100%; height:100%" :src="src6"></el-image></el-carousel-item>
                     </el-carousel>
                 </el-row>
                 <br>
