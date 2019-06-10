@@ -8,7 +8,14 @@
                     </div>
                 </el-col>
                 <el-col :span="14">
-                    <el-menu :default-active="activeIndex" class="el-menu-demo" mode="horizontal" @select="handleSelect">
+                    <el-menu :default-active="activeIndex"
+                             class="el-menu-demo"
+                             mode="horizontal"
+                             @select="handleSelect"
+                            background-color="#e8ebf1"
+                            text-color="black"
+                            active-text-color="#2aacc8"
+                            style="height:59px">
                             <el-menu-item index="1" @click="toggleTabs(cpIndex)">首页</el-menu-item>
                             <el-menu-item index="2" @click="toggleTabs(cpAboutMe)">关于我们</el-menu-item>
                             <el-submenu index="3">
@@ -60,7 +67,6 @@
                     </el-col>
                 <el-col :span="10">
                     <div style="float:right">
-                        
                         <nav>
                             <a class="lable" @click="toggleTabs(cpAboutMe)">关于我们</a>
                             <a class="lable" @click="toggleTabs(cpCopyRight)">版权声明</a>
@@ -179,6 +185,7 @@ a:active {color:#2aacc8;}  /* 正在被点击的链接 */
 .header,.footer{
     background-color:#e8ebf1;
     line-height: 60px;  
+    height: 200px;
 }
 .main{
     padding: 0px;
