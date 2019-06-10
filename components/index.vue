@@ -110,14 +110,12 @@ a:link {color:black;text-decoration:none;}		/* 未被访问的链接 */
 a:visited {color:black;}	/* 已被访问的链接 */
 a:hover {color:#2aacc8;}	/* 鼠标指针移动到链接上 */
 a:active {color:#2aacc8;}
-.com_index{
-    height: 1500px;
-}
+
 .top{
     background-image:url(../assets/image/sy_bg1.png);
     background-repeat: no-repeat;
     background-size:cover;
-    height: 40%; 
+    height: 400px; 
 }
 .top_left{
     width: 50%;
@@ -157,7 +155,7 @@ a:active {color:#2aacc8;}
     border-radius: 15px;
 }
 .middle{
-    height: 30%;
+    height: 300px;
 }
 .mid_row1{
     height: 100px;
@@ -173,14 +171,11 @@ a:active {color:#2aacc8;}
     padding: 20px;
     text-align: center;
 }
-.el-col{
-    /* background-color: aquamarine; */
-}
 .mid_content{
     height: 150px;
     width: 130px;
     text-align: center;
-    /* background-color: brown; */
+    background-color: brown;
     /* padding:10px 40px 10px 40px; */
     margin:25px 0px 25px 0px;
 }
@@ -188,7 +183,7 @@ a:active {color:#2aacc8;}
     background-image:url(../assets/image/sy_bg2.png);
     background-repeat: no-repeat;
     background-size:cover;
-    height: 30%; 
+    height:300px; 
 }
 .el-carousel__item h3 {
     color: #475669;

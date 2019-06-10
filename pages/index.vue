@@ -190,6 +190,7 @@ a:active {color:#2aacc8;}  /* 正在被点击的链接 */
 .main{
     padding: 0px;
     /* min-height: 800px; */
+    background-color: rgb(246, 249, 252);
 }
 .lable{
     width: 80px;
@@ -197,8 +198,7 @@ a:active {color:#2aacc8;}  /* 正在被点击的链接 */
     padding: 10px
 }
 .body{
-    margin-left: 200px;
-    margin-right: 200px;
+    margin:0vh 30vh 0vh 30vh;
     min-width: 1000px;
     min-height: 600px
 }
