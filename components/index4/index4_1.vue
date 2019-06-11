@@ -115,9 +115,14 @@
             </div>
             <el-col :span="10">
             <div class="grid-content1 bg-purple1">
+<<<<<<< HEAD
                 <el-row >
                     
                     <el-carousel :interval="4000" height="250px">
+=======
+                <el-row >    
+                    <el-carousel :interval="4000" type="card" height="200px">
+>>>>>>> 08b89592d50c18455b19d2dd5c5c2783ab0688c0
                         <el-carousel-item><el-image style="width: 100%; height:100%" :src="src4"></el-image></el-carousel-item>
                         <el-carousel-item><el-image style="width: 100%; height:100%" :src="src5"></el-image></el-carousel-item>
                         <el-carousel-item><el-image style="width: 100%; height:100%" :src="src6"></el-image></el-carousel-item>

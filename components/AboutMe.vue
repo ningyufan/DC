@@ -1,6 +1,6 @@
 <template>
     <div class="aboutme">
-        关于我们
+        这是个秘密
     </div>
 </template>
 

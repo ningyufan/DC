@@ -1,32 +1,75 @@
 <template>
-  <div >
-    <ul class="pagesInner">
-      <li class="page"><span class="fa fa-chevron-left" aria-hidden="true"></span></li>
-      <li class="page" v-for="(item, index) in pages" :key="index">
-        <span>{{item}}</span>
-      </li>
-      <li class="page"><span class="fa fa-chevron-right" aria-hidden="true"></span></li>
-    </ul>
-    <el-pagination
-    :page-size="20"
-    :pager-count="11"
-    layout="prev, pager, next"
-    :total="1000"
-    >
-    <div>wrwrwerwriwjiojiorwejij</div>
-  </el-pagination>
+  <div>
+    <el-table
+      :data="configs"
+      border
+      stripe
+      style="width: 100%">
+      <el-table-column
+        fixed
+        sortable
+        prop="id"
+        label="ID"
+        
+        width="150">
+      </el-table-column>
+      <el-table-column
+        prop="name"
+        sortable
+        label="名称"
+        width="300">
+      </el-table-column>
+      <el-table-column
+        sortable
+        prop="value"
+        label="取值"
+        width="300">
+      </el-table-column>
+      <el-table-column
+        sortable
+        prop="description"
+        label="描述">
+      </el-table-column>
+    </el-table>
 
-
-
+    <Pagination url="/config/list" v-model="configs" :page-size="10"/>
   </div>
 </template>
  
 <script>
 export default {
-  computed: {
-    pages() {
-      return 5;
-    }
+  data() {
+    return {
+      configs: [{id:'1',name:'gg',value:'10',description:'rrr'},
+      {id:'1',name:'gg',value:'10',description:'rrr'},
+      {id:'1',name:'gg',value:'10',description:'rrr'},
+      {id:'1',name:'gg',value:'10',description:'rrr'},
+      {id:'1',name:'gg',value:'10',description:'rrr'},
+      {id:'1',name:'gg',value:'10',description:'rrr'},
+      {id:'1',name:'gg',value:'10',description:'rrr'},
+      {id:'1',name:'gg',value:'10',description:'rrr'},
+      {id:'1',name:'gg',value:'10',description:'rrr'},
+      {id:'1',name:'gg',value:'10',description:'rrr'},
+      {id:'1',name:'gg',value:'10',description:'rrr'},
+      {id:'1',name:'gg',value:'10',description:'rrr'},
+      {id:'1',name:'gg',value:'10',description:'rrr'},
+      {id:'1',name:'gg',value:'10',description:'rrr'},
+      {id:'1',name:'gg',value:'10',description:'rrr'},
+      {id:'1',name:'gg',value:'10',description:'rrr'},
+      {id:'1',name:'gg',value:'10',description:'rrr'},
+      {id:'1',name:'gg',value:'10',description:'rrr'},
+      {id:'1',name:'gg',value:'10',description:'rrr'},
+      {id:'1',name:'gg',value:'10',description:'rrr'},
+      {id:'1',name:'gg',value:'10',description:'rrr'},
+      {id:'1',name:'gg',value:'10',description:'rrr'},
+      {id:'1',name:'gg',value:'10',description:'rrr'},
+      {id:'1',name:'gg',value:'10',description:'rrr'},
+      {id:'1',name:'gg',value:'10',description:'rrr'},
+      {id:'1',name:'gg',value:'10',description:'rrr'},
+      {id:'1',name:'gg',value:'10',description:'rrr'},
+      {id:'1',name:'gg',value:'10',description:'rrr'},]
+
+    };
   }
 };
 </script>

@@ -30,13 +30,14 @@
                                 <el-menu-item index="4-2" @click="toggleTabs(index4_2)">构建智能制造产业生态</el-menu-item>
                                 <el-menu-item index="4-3" @click="toggleTabs(index4_3)">推进服务业数字化</el-menu-item>
                             </el-submenu>
-                            <el-submenu index="5">
+                            <el-menu-item index="5" @click="toggleTabs(cpWisdomYL)">智慧玉林</el-menu-item>
+                            <!-- <el-submenu index="5">
                                 <template slot="title" >智慧玉林</template>
                                 <el-menu-item index="5-1" @click="toggleTabs(index5_1)">智慧侨乡</el-menu-item>
                                 <el-menu-item index="5-2" @click="toggleTabs(index5_2)">农业大数据</el-menu-item>
                                 <el-menu-item index="5-3" @click="toggleTabs(index5_3)">中草药特色产业</el-menu-item>
                                 <el-menu-item index="5-3" @click="toggleTabs(index5_4)">玉林5G时代</el-menu-item>
-                            </el-submenu>
+                            </el-submenu> -->
                             <el-submenu index="6">
                                 <template slot="title" >智慧校园</template>
                                 <el-menu-item index="6-1" @click="toggleTabs(index6_1)">玉师--曙光大数据应用创新中心</el-menu-item>
@@ -199,7 +200,7 @@ a:active {color:#2aacc8;}  /* 正在被点击的链接 */
 }
 .body{
     margin:0vh 30vh 0vh 30vh;
-    min-width: 1000px;
+    min-width: 1200px;
     min-height: 600px
 }
 
