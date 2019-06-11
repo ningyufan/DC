@@ -111,13 +111,13 @@
             </div>
             </el-col>
             <div class="icon-warp">
-                <i class="el-icon-view" style="font-size: 20px" > <b>成果展示</b></i>
+                <i class="el-icon-picture-outline" style="font-size: 20px" > <b>成果展示</b></i>
             </div>
             <el-col :span="10">
             <div class="grid-content1 bg-purple1">
                 <el-row >
                     
-                    <el-carousel :interval="4000" type="card" height="200px">
+                    <el-carousel :interval="4000" height="250px">
                         <el-carousel-item><el-image style="width: 100%; height:100%" :src="src4"></el-image></el-carousel-item>
                         <el-carousel-item><el-image style="width: 100%; height:100%" :src="src5"></el-image></el-carousel-item>
                         <el-carousel-item><el-image style="width: 100%; height:100%" :src="src6"></el-image></el-carousel-item>
@@ -247,9 +247,6 @@
                     </div>
                     </el-col>
                 </el-row>
-                <br>
-                <hr>
-                <br>
             </div>
             </el-col>
         </el-row>
