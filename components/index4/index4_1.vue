@@ -115,8 +115,7 @@
             </div>
             <el-col :span="10">
             <div class="grid-content1 bg-purple1">
-                <el-row >
-                    
+                <el-row >    
                     <el-carousel :interval="4000" type="card" height="200px">
                         <el-carousel-item><el-image style="width: 100%; height:100%" :src="src4"></el-image></el-carousel-item>
                         <el-carousel-item><el-image style="width: 100%; height:100%" :src="src5"></el-image></el-carousel-item>
