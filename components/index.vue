@@ -1,7 +1,7 @@
 <template>
     <div class="com_index">
         <div class="top">
-            <el-carousel :interval="4000" type="card" height="460px">
+            <el-carousel :interval="3000" type="card" height="460px">
                 <el-carousel-item>
                     <a href="http://www.ylu.edu.cn/html/2017/0715ysyw/15973.html" target="_blank">
                         <el-image :src="carousel1" style="width: 100%; height:100%"></el-image>

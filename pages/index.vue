@@ -2,12 +2,12 @@
     <el-container class="body">
         <el-header class="header">
             <el-row :gutter="20">
-                <el-col :span="10">
+                <el-col :span="8">
                     <div>
-                        <h1 style="text-align: center">Digital<span style="color:#2aacc8">China</span></h1>
+                        <h1 style="text-align: center"  @click="toggleTabs(cpfengmian)">Digital<span style="color:#2aacc8">China</span></h1>
                     </div>
                 </el-col>
-                <el-col :span="14">
+                <el-col :span="16">
                     <el-menu :default-active="activeIndex"
                              class="el-menu-demo"
                              mode="horizontal"
@@ -57,7 +57,8 @@
             </el-row>
         </el-header>
         <el-main class="main">
-            <cpIndex :is="currentView" keep-alive></cpIndex>
+            <cpfengmian :is="currentView" keep-alive></cpfengmian>
+            <!-- <cpIndex :is="currentView" keep-alive></cpIndex> -->
         </el-main>
         <el-footer class="footer">
             <el-row :gutter="20">
@@ -89,6 +90,7 @@
 </template>
 
 <script>
+import cpfengmian from '../components/fengmian';
 import cpIndex from '../components/index';
 import cpAboutMe from '../components/AboutMe';
 import cpDigitalChina from '../components/DigitalChina';
@@ -116,6 +118,7 @@ import index6_3 from '../components/index6/index6_3'
 
 export default {
     components: { 
+        cpfengmian,
         cpIndex,
         cpAboutMe,
         cpDigitalChina,
@@ -154,6 +157,7 @@ export default {
                 index6_1:"index6_1",
                 index6_2:"index6_2",
                 index6_3:"index6_3",
+                cpfengmian:"cpfengmian",
                 cpIndex:"cpIndex",
                 cpAboutMe:"cpAboutMe",
                 cpDigitalChina:"cpDigitalChina",
@@ -163,7 +167,7 @@ export default {
                 cpMail:"cpMail",
                 cpFeedBack:"cpFeedBack",
                 cpCopyRight:"cpCopyRight",
-                currentView: 'cpIndex', //默认选中cpIndex子组件
+                currentView: 'cpfengmian', //默认选中cpIndex子组件
                 activeIndex: '1',
                 activeIndex2: '1',
             };
@@ -199,9 +203,9 @@ a:active {color:#2aacc8;}  /* 正在被点击的链接 */
     padding: 10px
 }
 .body{
-    margin:0vh 30vh 0vh 30vh;
-    min-width: 1200px;
-    min-height: 600px
+    margin: 0 auto;
+    width: 1000px;
+    max-height: 1200px;
 }
 
 </style>
