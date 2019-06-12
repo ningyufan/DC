@@ -111,7 +111,7 @@
             </div>
             </el-col>
             <div class="icon-warp">
-                <i class="el-icon-view" style="font-size: 20px" > <b>成果展示</b></i>
+                <i class="el-icon-picture-outline" style="font-size: 20px" > <b>成果展示</b></i>
             </div>
             <el-col :span="10">
             <div class="grid-content1 bg-purple1">
@@ -246,9 +246,6 @@
                     </div>
                     </el-col>
                 </el-row>
-                <br>
-                <hr>
-                <br>
             </div>
             </el-col>
         </el-row>
